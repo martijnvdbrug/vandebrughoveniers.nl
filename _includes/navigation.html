@@ -1,0 +1,22 @@
+<nav id="menu">
+    <ul id="menu-main-menu" class="menu menu-main">
+        <li {% if page.title contains "Home" %} class="current-menu-item" {% endif %} >
+            <a href="/"><span>HOME</span></a>
+        </li>
+        <li {% if page.title contains "Tuinontwerp" %} class="current-menu-item" {% endif %} >
+            <a href="/tuinontwerp"><span>TUINONTWERP</span></a>
+        </li>
+        <li {% if page.title contains "Tuinonderhoud" %} class="current-menu-item" {% endif %} >
+            <a href="/tuinonderhoud"><span>TUINONDERHOUD</span></a>
+        </li>
+        <li {% if page.title contains "Portfolio" %} class="current-menu-item" {% endif %} >
+            <a href="/portfolio"><span>PORTFOLIO</span></a>
+        </li>
+        <li {% if page.title contains "Over ons" %} class="current-menu-item" {% endif %} >
+            <a href="/over-ons"><span>OVER ONS</span></a>
+        </li>
+        <li {% if page.title contains "Contact" %} class="current-menu-item" {% endif %} >
+            <a href="/contact"><span>CONTACT</span></a>
+        </li>
+    </ul>
+</nav>
