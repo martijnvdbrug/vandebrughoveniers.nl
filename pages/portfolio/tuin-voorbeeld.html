@@ -1,38 +1,36 @@
 ---
 layout: default
 permalink: portfolio/tuin-voorbeeld
-title: Tuin voorbeeld project
+title: Portfolio - Tuin voorbeeld project
 ---
 
 <div id="Content">
     <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <div class="section mcb-section equal-height-wrap" style="padding-top:120px; padding-bottom:80px">
+                    <div class="section_wrapper mcb-section-inner">
 
-        <ul class="portfolio_grid">
+                        <ul class="portfolio_grid">
+                            {% for i in (1..6) %}
+                            <li>
+                                <div class="image_frame scale-with-grid">
+                                    <div class="image_wrapper">
+                                        <a href="/images/tuin_baarn.jpg" class="zoom" rel="prettyphoto">
+                                            <div class="mask"></div>
+                                            <img width="576" height="450" src="/images/tuin_baarn.jpg"
+                                                 class="scale-with-grid wp-post-image" alt="portfolio_1" itemprop="image">
+                                        </a>
 
-            {% for i in (1..6) %}
-            <li>
-                <div class="image_frame scale-with-grid">
-                    <div class="image_wrapper">
-                        <a href="#">
-                            <div class="mask"></div>
-                            <img width="576" height="450" src="/images/tuin_baarn.jpg"
-                                 class="scale-with-grid wp-post-image" alt="portfolio_1" itemprop="image">
-                        </a>
-                        <div class="image_links triple">
-                            <a href="/images/tuin_baarn.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i>
-                            </a>
-                            <a target="_blank" href="#" class="external"><i class="icon-forward"></i>
-                            </a>
-                            <a href="images/portfolio-item-image.html" class="link"><i class="icon-link"></i>
-                            </a>
-                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+
                     </div>
                 </div>
-            </li>
-            {% endfor %}
-
-        </ul>
-
+            </div>
+        </div>
     </div>
-
 </div>
