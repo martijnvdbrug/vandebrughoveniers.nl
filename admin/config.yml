@@ -11,6 +11,7 @@ media_folder: 'images/uploads'
 collections:
   - label: "Pagina's"
     name: "pages"
+    delete: false
     editor:
       preview: false
     files:
