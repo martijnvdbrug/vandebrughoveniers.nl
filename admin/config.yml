@@ -21,3 +21,15 @@ collections:
         fields:
           - {label: Titel, name: title, widget: string}
           - {label: Content, name: content, widget: text}
+  - name: 'portfolio'
+    label: 'Portfolio'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
