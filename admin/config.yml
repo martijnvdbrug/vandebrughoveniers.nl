@@ -32,4 +32,11 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Afbeelding 1', name: 'img1', widget: 'image' }
+      - { label: 'Afbeelding 2', name: 'img2', widget: 'image' }
+      - { label: 'Afbeelding 3', name: 'img3', widget: 'image' }
+      - { label: 'Afbeelding 4', name: 'img4', widget: 'image' }
+      - { label: 'Afbeelding 5', name: 'img5', widget: 'image' }
+      - { label: 'Afbeelding 6', name: 'img6', widget: 'image' }
+      - { label: 'Afbeelding 7', name: 'img7', widget: 'image' }
+      - { label: 'Afbeelding 8', name: 'img8', widget: 'image' }

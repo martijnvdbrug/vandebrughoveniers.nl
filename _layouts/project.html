@@ -59,24 +59,117 @@ subheader-both-left menu-link-color menuo-no-borders menuo-right footer-copy-cen
                 <div class="entry-content">
                     <div class="section mcb-section equal-height-wrap" style="padding-top:120px; padding-bottom:80px">
                         <div class="section_wrapper mcb-section-inner">
-
+                            <h2>{{ page.title }}</h2>
+                            <h5>{{ page.subtitle }}</h5>
                             <ul class="portfolio_grid">
-                                {% for i in (1..6) %}
+
+                                {% if page.img1 %}
                                 <li>
                                     <div class="image_frame scale-with-grid">
                                         <div class="image_wrapper">
-                                            <a href="/images/tuin_baarn.jpg" class="zoom" rel="prettyphoto">
+                                            <a href="{{ page.img1 }}" class="zoom" rel="prettyphoto">
                                                 <div class="mask"></div>
-                                                <img width="576" height="450" src="/images/tuin_baarn.jpg"
-                                                     class="scale-with-grid wp-post-image" alt="portfolio_1" itemprop="image">
+                                                <img width="576" height="450" src="{{ page.img1 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
                                             </a>
-
                                         </div>
                                     </div>
                                 </li>
-                                {% endfor %}
-                            </ul>
+                                {% endif %}
+                                {% if page.img2 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img2 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img2 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                                {% if page.img3 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img3 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img3 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                                {% if page.img4 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img4 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img4 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                                {% if page.img5 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img5 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img5 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                                {% if page.img6 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img6 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img6 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                                {% if page.img7 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img7 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img7 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
+                                {% if page.img8 %}
+                                <li>
+                                    <div class="image_frame scale-with-grid">
+                                        <div class="image_wrapper">
+                                            <a href="{{ page.img8 }}" class="zoom" rel="prettyphoto">
+                                                <div class="mask"></div>
+                                                <img width="576" height="450" src="{{ page.img8 }}"
+                                                     class="scale-with-grid wp-post-image" itemprop="image">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endif %}
 
+
+                            </ul>
                         </div>
                     </div>
                 </div>
