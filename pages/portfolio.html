@@ -49,14 +49,17 @@ title: Portfolio
                                     </div>
                                 </div>
                                 <div class="column mcb-column two-fifth column_button">
-                                    <a class="button button_right button_size_2 button_js kill_the_icon"
+<!--                                    <a class="button button_right button_size_2 button_js kill_the_icon"
                                        href="{{ post.url }}" style="background-color: #99C24D">
                                         <span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">Bekijk meer</span>
-                                    </a>
+                                    </a>-->
                                 </div>
                                 <div class="column mcb-column three-fifth column_column">
                                     <div class="column_attr clearfix align_right" style="padding:8px 0 0">
-                                        <h5>{{ post.subtitle }}</h5>
+                                        <a class="button button_right button_size_2 button_js kill_the_icon"
+                                           href="{{ post.url }}" style="background-color: #99C24D">
+                                            <span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">Bekijk meer</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +70,7 @@ title: Portfolio
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
                                         <div class="image_wrapper">
                                             <a href="{{ post.url }}">
-                                                <img class="scale-with-grid" src="/images/tuin_baarn.jpg">
+                                                <img class="scale-with-grid" src="{{ post.img1 }}">
                                             </a>
                                         </div>
                                     </div>
