@@ -34,7 +34,7 @@ title: Contact
                                     <div class="column_attr clearfix" style="background-image:url('/images/location.png'); background-repeat:no-repeat; background-position:left top; padding:0 0 0 60px">
                                         <h6>LOCATIE</h6>
                                         <p>
-                                            {{ site.address }}
+                                            {{ site.data.contact.address }}
                                         </p>
                                     </div>
                                 </div>
@@ -42,9 +42,9 @@ title: Contact
                                     <div class="column_attr clearfix" style="background-image:url('/images/phone.png'); background-repeat:no-repeat; background-position:left top; padding:0 0 0 60px">
                                         <h6>TELEFOON / EMAIL</h6>
                                         <p>
-                                            {{ site.phone }}
+                                            {{ site.data.contact.phone }}
                                             <br>
-                                            <a href="mailto:{{ site.email }}"><span>{{ site.email }}</span></a>
+                                            <a href="mailto:{{ site.email }}"><span>{{ site.data.contact.email }}</span></a>
                                         </p>
                                     </div>
                                 </div>
