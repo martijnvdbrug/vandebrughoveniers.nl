@@ -21,6 +21,33 @@ collections:
         fields:
           - {label: Titel, name: title, widget: string}
           - {label: Content, name: content, widget: text}
+      - label: "Ontwerp en aanleg"
+        name: "ontwerp"
+        file: "_data/ontwerp.yml"
+        fields:
+          - {label: Titel ontwerp, name: title1, widget: string}
+          - {label: Content ontwerp, name: content1, widget: text}
+          - {label: Titel aanleg, name: title2, widget: string}
+          - {label: Content aanleg, name: content2, widget: text}
+      - label: "Tuinonderhoud"
+        name: "tuinonderhoud"
+        file: "_data/tuinonderhoud.yml"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Content, name: content, widget: text}
+      - label: "Over ons"
+        name: "over-ons"
+        file: "_data/over-ons.yml"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Content, name: content, widget: text}
+      - label: "Contact"
+        name: "contact"
+        file: "_data/contact.yml"
+        fields:
+          - {label: Email, name: email, widget: string}
+          - {label: Phone, name: phone, widget: string}
+          - {label: Address, name: address, widget: string}
   - name: 'portfolio'
     label: 'Portfolio'
     folder: '_posts/'
