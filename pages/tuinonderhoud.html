@@ -8,20 +8,8 @@ title: Tuinonderhoud
     <div class="content_wrapper clearfix">
         <div class="sections_group">
             <div class="entry-content">
-                <div class="section mcb-section equal-height-wrap" style="padding-top:120px; padding-bottom:80px">
+                <div class="section mcb-section equal-height-wrap" style="padding-top:80px; padding-bottom:80px">
                     <div class="section_wrapper mcb-section-inner">
-                        <!--                        <div class="wrap mcb-wrap one-second valign-middle clearfix">
-                                                    <div class="mcb-wrap-inner">
-                                                        <div class="column mcb-column one column_image">
-                                                            <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                                <div class="image_wrapper">
-                                                                    <img class="scale-with-grid"
-                                                                         src="/images/tuinonderhoud.jpg">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>-->
                         <div class="wrap mcb-wrap one-first valign-middle clearfix" style="padding:0 0 0 4%">
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_divider">
@@ -29,8 +17,22 @@ title: Tuinonderhoud
                                 </div>
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix">
-                                        <h2 style="margin-right: 5%">{{ site.data.tuinonderhoud.title }}</h2>
-                                        {{ site.data.tuinonderhoud.content }}
+                                        <h2 style="margin-right: 5%">
+                                            {{ site.data.tuinonderhoud.title }}</h2>
+
+
+                                        <br>
+                                            <div id="wowslider-container1" class="boxed-wow">
+                                                <div class="ws_images">
+                                                    <ul>
+                                                        <li><img src="../images/onderhoudslider/heg.jpeg" alt="heg" title="pic" id="wows2_0"></li>
+                                                        <li><img src="../images/onderhoudslider/tuin.jpeg" alt="tuin" title="pic" id="wows2_1"></li>
+                                                        <li><img src="../images/onderhoudslider/bestrating.jpeg" alt="bestrating" title="pic" id="wows2_2"></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        {{ site.data.home.content }}
 
                                     </div>
                                 </div>
